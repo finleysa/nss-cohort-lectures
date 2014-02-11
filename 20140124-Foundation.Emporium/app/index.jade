@@ -1,0 +1,53 @@
+doctype html
+//if IE 9]><html class="lt-ie10" lang="en" > <![endf]
+html(class="no-js" lang="en")
+
+  head
+    meta(charset="utf-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Foundation 5
+    link(rel="stylesheet" href="css/normalize.css")
+    link(rel="stylesheet" href="css/foundation.css")
+    link(rel="stylesheet" href="css/app.css")
+    script(src="js/vendor/modernizr.js")
+
+    body
+      .row 
+        .small-12.columns
+          .panel
+            h1 The Emporium
+      .row
+        .small-8.columns
+          .form
+            .row
+              .small-5.columns
+                label#item Item
+                input(type='text', placeholder='Monster Energy', autofocus='true')
+              .small-2.columns
+                label#quantity Quantity
+                input(type='text', placeholder='1')
+              .small-2.columns
+                label#amount Amount
+                input(type='text', placeholder='1.00')
+              .small-3.columns
+                label &nbsp;
+                button.tiny.radius#add-item Add Item
+        .small-4.columns
+          table
+            thead
+              tr
+                th Item
+                th Quantity
+                th Amount
+                th Total
+            tfoot
+              tr
+                td
+                td
+                td
+                td
+            tbody
+    script(src="js/vendor/jquery.js")
+    script(src="js/vendor/foundation.js")
+    script $(document).foundation();
+

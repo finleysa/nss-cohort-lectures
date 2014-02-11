@@ -1,0 +1,23 @@
+body{
+  background: 'blue';
+}
+
+#box{
+  background-color: grey;
+  width: 50%;
+  padding: 20px;
+  margin: 50px auto 0;
+}
+
+#result{
+  color: white;
+  background-color: black;
+  width: 50%;
+  padding: 20px;
+  font-size: 32px;
+  margin: 0 auto;
+}
+
+#block{
+  padding: 20px;
+}

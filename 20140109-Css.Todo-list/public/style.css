@@ -1,0 +1,38 @@
+*{
+  font-family: monospace;
+}
+
+h1 {
+  color: tomato;
+}
+
+a[href] {
+  color: purple;
+  font-size 38;
+}
+
+a[href="www.google.com"] {
+  background-color:yellow;
+}
+
+.name {
+  font-size:48px;
+}
+
+.x1 {
+  color:darkred;
+}
+
+#first-name {
+  background-color: orange;
+}
+
+#last-name {
+  color: purple
+}
+
+#one {
+  border:1px dashed blue;
+  border-radius: 5px;
+  padding: 10px;
+}

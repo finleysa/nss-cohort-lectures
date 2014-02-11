@@ -1,0 +1,36 @@
+.color{
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  float: left;
+  margin: 20px 10px;
+}
+
+.pixel{
+  height: 5px;
+  width: 5px;
+  border: 5px;
+}
+
+.selected{
+  border: 5px dashed;
+}
+
+.clear{
+  clear: both;
+}
+
+
+#color-text{
+ height: 50px;
+ width: 300px;
+ font-size: 40px;
+ margin: 20px 20px;
+}
+
+#add-color{
+  height: 50px;
+  font-size: 40px;
+}
+
+

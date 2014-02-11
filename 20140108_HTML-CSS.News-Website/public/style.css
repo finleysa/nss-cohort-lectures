@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/css?family=Ribeye);
+@import url(http://fonts.googleapis.com/css?family=Freckle+Face);
+
+header{
+  color: purple;
+  border: 3px dashed green;
+  font-family: 'Ribeye';
+  font-size: 40px;
+}
+
+h1{
+  border: 5px solid tomato;
+}
+
+h2{
+  color: yellow;
+}
+
+body{
+  background: url(/images/tile.jpg);
+}
+
+p{
+  padding: 5px;
+  font-family: 'Freckle Face';
+  font-size: 24px;
+}
+
+a{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 48px;
+  color: blue;
+  vertical-align: middle;
+}
+
+img{
+  vertical-align: middle;
+  padding: 10px;
+}
+
+a:hover{
+  color: green;
+  font-size: 64;
+}

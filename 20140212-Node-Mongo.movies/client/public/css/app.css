@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Frijole);
+h1 {
+  font-family: 'Frijole';
+  text-align: center;
+}
+body {
+  background-color: grey;
+}
+table {
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+#container div {
+  font-family: 'Frijole';
+  color: lime;
+}
+.box {
+  height: 300px;
+  width: 202.5px;
+  border: 1px blue;
+  float: left;
+  margin: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

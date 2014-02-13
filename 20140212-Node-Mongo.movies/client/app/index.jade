@@ -1,0 +1,60 @@
+doctype html
+//[if IE 9]><html class="lt-ie10" lang="en" > <![endif]
+html(class='no-js', lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Foundation 5
+    link(rel='stylesheet', href='/css/normalize.css')
+    link(rel='stylesheet', href='/css/foundation.css')
+    link(rel='stylesheet', href='/css/app.css')
+    script(src='/js/vendor/modernizr.js')
+  body
+    .row
+      .small-12.columns.panel
+        h1 MMDB - Mongo Movie Database
+    .row
+      .small-12.columns
+        #form
+          form#movie
+            fieldset
+              legend Add Movie
+              .row
+                .small-3.columns
+                  label Name
+                    input(type='text' name='name')
+                .small-3.columns
+                  label Rating
+                    input(type='text' name='rating')
+                .small-3.columns
+                  label Length
+                    input(type='text' name='length')
+                .small-3.columns
+                  label Year
+                    input(type='text' name='year')
+              .row
+                .small-6.columns
+                  label Actors
+                    input(type='text' name='actors')
+                .small-3.columns
+                  label Director
+                    input(type='text' name='director')
+                .small-3.columns
+                  label Studio
+                    input(type='text' name='studio')
+              .row
+                .small-8.columns
+                  label Poster
+                    input(type='text' name='poster')
+                .small-4.columns
+                  button#add.small.radius Add!
+    .row
+      .small-12.columns
+        #container
+
+
+    script(src='/js/vendor/jquery.js')
+    script(src='/js/vendor/foundation.js')
+    script(src='/js/vendor/lodash.js')
+    script(src='/js/source/main.js')
+

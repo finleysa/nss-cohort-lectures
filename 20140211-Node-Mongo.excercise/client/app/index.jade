@@ -12,7 +12,7 @@ html(class='no-js', lang='en')
   body
     .row.panel
       .small-12.columns
-        h1 Excercise
+        h1 Excercise Log
     .row
       .small-8.columns
         table
@@ -24,7 +24,7 @@ html(class='no-js', lang='en')
               th Date
           tbody#body
 
-      .small-4.columns
+      .small-4.columns.panel
         .row
           .small-12-columns
             label Name
@@ -44,11 +44,14 @@ html(class='no-js', lang='en')
         .row
           .small-12-columns
             label
-            button.small#create Create Excercise
+            button.small.round#create Create Excercise
         .row
           .small-6-columns
             select#select
           .small-6-columns
+        .row
+          .small-12-columns
+            button.small.round#reset Reset
 
 
     script(src='/js/vendor/jquery.js')
